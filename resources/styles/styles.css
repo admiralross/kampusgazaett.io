@@ -492,3 +492,186 @@
 
 /* limit will-change to the short-lived reveal class to avoid long paint layers */
 .reveal { will-change: transform, opacity; }
+
+/* Scale to fit screen size while maintaining template */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .header-row {
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .top-section {
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .card img {
+    height: 140px;
+  }
+
+  .banner-rotator {
+    height: 280px;
+  }
+
+  .bottom-section {
+    gap: 16px;
+  }
+
+  .extra-section {
+    gap: 14px;
+  }
+
+  .articles {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 16px;
+    padding: 16px;
+  }
+
+  .header-row {
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .logo-title {
+    font-size: 28px;
+  }
+
+  .site-info {
+    font-size: 11px;
+  }
+
+  .site-info .current-time {
+    font-size: 15px;
+  }
+
+  .top-section {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    height: 120px;
+  }
+
+  .banner-rotator {
+    height: 240px;
+  }
+
+  .bottom-section {
+    gap: 14px;
+  }
+
+  .bottom-left .promo {
+    padding: 18px;
+  }
+
+  .bottom-left h3 {
+    font-size: 18px;
+  }
+
+  .bottom-left p {
+    font-size: 13px;
+  }
+
+  .extra-section {
+    gap: 12px;
+    grid-template-columns: 1fr;
+  }
+
+  .widget, .newsletter, .cta-card {
+    padding: 12px;
+  }
+
+  .articles {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 12px;
+    padding: 12px;
+  }
+
+  .header-row {
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .logo-title {
+    font-size: 24px;
+  }
+
+  .site-info {
+    font-size: 10px;
+  }
+
+  .site-info .current-time {
+    font-size: 14px;
+  }
+
+  .top-section {
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .card img {
+    height: 100px;
+  }
+
+  .banner-rotator {
+    height: 180px;
+  }
+
+  .bottom-section {
+    gap: 12px;
+  }
+
+  .bottom-left .promo {
+    padding: 14px;
+  }
+
+  .bottom-left h3 {
+    font-size: 16px;
+  }
+
+  .bottom-left p {
+    font-size: 12px;
+  }
+
+  .extra-section {
+    gap: 10px;
+  }
+
+  .widget, .newsletter, .cta-card {
+    padding: 10px;
+  }
+
+  .articles {
+    gap: 6px;
+  }
+
+  .modal {
+    width: 96%;
+    padding: 12px;
+  }
+
+  .modal-title {
+    font-size: 16px;
+  }
+
+  .modal-body {
+    font-size: 14px;
+  }
+}
