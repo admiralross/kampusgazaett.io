@@ -1,16 +1,28 @@
-  :root{
-    --bg-1: #eac599;
-    --bg-2: #f2dab6;
-    --accent: #b5810b;
-    --muted-accent: #b59d34;
-    --card-bg: rgba(255,255,255,0.04);
-    --glass: rgba(255,255,255,0.09);
-    --glass-strong: rgba(255,255,255,0.14);
-    --text-light: #111111;
-    --p-color: #1721a7;
-    --shadow: 0 10px 30px rgba(0,0,0,0.6);
-    --radius: 12px;
-  }
+:root{
+  /* soft background tones */
+  --bg-1: #f6e6cf;
+  --bg-2: #fdf4e7;
+
+  /* accents */
+  --accent: #c6921a;
+  --muted-accent: #d8b45a;
+
+  /* glass layers */
+  --card-bg: rgba(255,255,255,0.18);
+  --glass: rgba(255,255,255,0.25);
+  --glass-strong: rgba(255,255,255,0.35);
+
+  /* text */
+  --text-light: #111111;
+  --p-color: #2430c9;
+
+  /* shadows and borders */
+  --shadow: 0 10px 40px rgba(0,0,0,0.15);
+  --glass-border: rgba(255,255,255,0.35);
+
+  /* radius */
+  --radius: 14px;
+}
 
   /* Reset and base */
   *{box-sizing:border-box}
