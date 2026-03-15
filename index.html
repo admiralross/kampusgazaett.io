@@ -138,7 +138,7 @@
       .container{ padding:10px; }
       .categories .category h5{ font-size:.98rem; }
       .newsletter input[type="email"]{ width:100%; padding:10px; font-size:0.95rem; }
-      .newsletter button{ width:100%; margin-top:8px; }
+      .newsletter button{ width:80%; margin-top:8px; }
       .grid-it br, .articles br { display:none; } /* remove visual breaks on tiny screens */
     }
 
@@ -403,9 +403,9 @@
           </div>
         </div>
       </div>
-
-      <!-- right: newsletter + CTA -->
-      <aside class="newsletter" aria-labelledby="newsletter-title">
+    </section>
+       <!-- right: newsletter + CTA -->
+    <aside class="newsletter" aria-labelledby="newsletter-title">
         <h4 id="newsletter-title">Newsletter</h4>
         <p style="margin:0;color:rgba(255,255,255,0.84)">Get a weekly digest of campus news.</p>
         <form onsubmit="event.preventDefault(); alert('Thanks — signup placeholder');">
@@ -419,7 +419,6 @@
           <button class="cta-btn">Contact Sales</button>
         </div>
       </aside>
-    </section>
     <!-- modal story goes in the section bbelow for easy edits, and dynamic recalls.-->
     <!-- full stories storage (hidden) -->
 <section id="fullStories" aria-hidden="true" style="display:none;">
@@ -464,7 +463,6 @@
     <footer>
       © Gazette • powered by studio|ventura — 2025.
     </footer>
-  </div>
 
   <!-- Modal markup (hidden by default) -->
   <div class="modal-overlay" id="readingModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
