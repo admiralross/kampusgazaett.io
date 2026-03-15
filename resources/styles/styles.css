@@ -366,7 +366,7 @@
 }
 .newsletter form{ display:flex; gap:8px; margin-top:10px; }
 .newsletter input[type="email"]{ flex:1; padding:10px; border-radius:8px; border:0; background:rgba(0,0,0,0.06); color:var(--text-light); }
-.newsletter button{ padding:10px 12px; background:linear-gradient(135deg,var(--accent),var(--muted-accent)); border:0; border-radius:8px; color:#071018; font-weight:700; cursor:pointer; }
+.newsletter button{ padding:8px 10px; background:linear-gradient(135deg,var(--accent),var(--muted-accent)); border:0; border-radius:8px; color:#071018; font-weight:700; cursor:pointer; flex-shrink:0; }
 
 /* small CTA card */
 .cta-card{ display:flex; flex-direction:column; gap:8px; align-items:flex-start; }
