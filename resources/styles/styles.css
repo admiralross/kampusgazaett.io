@@ -28,6 +28,7 @@
   /* text */
   --text-light: #111111;
   --p-color: #c9f4ff;
+  --p2-color: #000000;
 
   /* shadows and borders */
   --shadow: 0 10px 20px rgba(0,0,0,0.15);
@@ -51,7 +52,7 @@
     line-height:1.45;
   }
   p {
-    color: var(--p-color);
+    color: var(--p2-color);
     -webkit-text-fill-color: var(--p-color);
   }
 
