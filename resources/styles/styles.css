@@ -1,7 +1,20 @@
 :root{
-  /* soft background tones */
-  --bg-1: #f6e6cf;
-  --bg-2: #fdf4e7;
+  /* background gradients */
+  --bg-1: #f7e7d1;
+  --bg-2: #f2d7b4;
+  --bg-3: #eac599;
+
+  --bg-gradient: linear-gradient(
+    135deg,
+    var(--bg-1),
+    var(--bg-2),
+    var(--bg-3)
+  );
+
+  --bg-liquid:
+    radial-gradient(circle at 20% 25%, #ffffff90, transparent 40%),
+    radial-gradient(circle at 80% 70%, #ffd89a80, transparent 45%),
+    linear-gradient(135deg, var(--bg-1), var(--bg-2), var(--bg-3));
 
   /* accents */
   --accent: #c6921a;
@@ -14,10 +27,10 @@
 
   /* text */
   --text-light: #111111;
-  --p-color: #2430c9;
+  --p-color: #c9f4ff;
 
   /* shadows and borders */
-  --shadow: 0 10px 40px rgba(0,0,0,0.15);
+  --shadow: 0 10px 20px rgba(0,0,0,0.15);
   --glass-border: rgba(255,255,255,0.35);
 
   /* radius */
